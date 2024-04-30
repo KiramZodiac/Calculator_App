@@ -53,3 +53,18 @@ button:hover{
 .operator-btn:hover{
     background-color:hsl(35,100%,75%);
 }
+
+.time{
+    background-color:palevioletred;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+   
+}
+.time,p{
+font-size:x-large;
+font-weight: 700;
+font-style: italic;
+color: aqua;
+
+}
