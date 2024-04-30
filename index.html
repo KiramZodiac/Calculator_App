@@ -10,7 +10,9 @@
 <body>
     <h1 id="h1">Calculator</h1>
     <div id="calculator">
+       
     <input id="display" readonly>
+    <div class="time"><p id="time"></p></div>
     <div id="'keys">
 <button onclick="appendToDisplay('+')" class ="operator-btn">+</button>
 <button onclick="appendToDisplay('7')">7</button>
@@ -25,6 +27,7 @@
 <button onclick="appendToDisplay('2')">2</button>
 <button onclick="appendToDisplay('3')">3</button>
 <button onclick="appendToDisplay('/')"class ="operator-btn">/</button>
+
 <button onclick="appendToDisplay('0')">0</button>
 <button onclick="appendToDisplay('.')">.</button>
 
@@ -32,7 +35,7 @@
 <button id="clearDispaly"class ="operator-btn" onclick="clearDispaly()">C</button>
 
     </div></div>
-    
+   
     
 </body>
 <script src="calc.js"></script>
