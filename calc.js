@@ -15,7 +15,9 @@ display.value += input;
 
 //function to habdle clearing the disolay screen
 function clearDispaly(){
-    display.value = "";
+
+
+    display.value =''
 
 }
 
@@ -31,3 +33,23 @@ function calculate(){
     }
 
 }
+
+const time = document.getElementById('time')
+
+
+
+function trigger() {
+    let date = new Date()
+   
+time.textContent = date.getHours() +':'+ date.getMinutes() +':'+ date.getSeconds()
+   
+}
+
+
+
+
+ setInterval(() => {
+    trigger() 
+
+   },1000)  
+
